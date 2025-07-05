@@ -1,0 +1,22 @@
+{
+  "name": "stakeMint",
+  "version": "1.0.0",
+  "description": "stakeMint Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network <network-name>"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.1.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "dotenv": "^16.4.5",
+    "erc721a": "^4.2.3",
+    "erc721a-upgradeable": "^4.2.2",
+    "ethers": "^6.6.0",
+    "hardhat": "^2.25.0"
+  }
+}
